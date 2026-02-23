@@ -1057,178 +1057,289 @@ Total 30 questions | T/F: 10 | Single Choice: 10 | Multiple Choice: 10
 ### Part 1: True / False (1-10)
 
 1) **If there are not enough servers, you can increase server quotas or upgrade the specifications of existing servers.**  
-Answer: **A. True**
+<details><summary><mark><strong>Show Answer</strong></mark></summary>
 
+**Answer:** **A. True**
+
+</details>
 2) **An RDS for MySQL primary/standby DB instance can be deployed only in one region.**  
-Answer: **A. True**
+<details><summary><mark><strong>Show Answer</strong></mark></summary>
 
+**Answer:** **A. True**
+
+</details>
 3) **A customer using Direct Connect or VPN between cloud and on-premises should use different CIDR blocks to avoid conflicts.**  
-Answer: **A. True**
+<details><summary><mark><strong>Show Answer</strong></mark></summary>
 
+**Answer:** **A. True**
+
+</details>
 4) **FunctionGraph enables users to focus on service logic instead of building container images.**  
-Answer: **A. True**
+<details><summary><mark><strong>Show Answer</strong></mark></summary>
 
+**Answer:** **A. True**
+
+</details>
 5) **If one AZ fails, other AZs in the same region are generally isolated from that fault.**  
-Answer: **A. True**
+<details><summary><mark><strong>Show Answer</strong></mark></summary>
 
+**Answer:** **A. True**
+
+</details>
 6) **Yearly/monthly ECS can save money, but may cost more if not suitable for the workload.**  
-Answer: **A. True**
+<details><summary><mark><strong>Show Answer</strong></mark></summary>
 
+**Answer:** **A. True**
+
+</details>
 7) **ELB can route requests to backend servers across regions.**  
-Answer: **B. False**
+<details><summary><mark><strong>Show Answer</strong></mark></summary>
 
+**Answer:** **B. False**
+
+</details>
 8) **Elastic design improves reliability while helping with cost and performance targets.**  
-Answer: **A. True**
+<details><summary><mark><strong>Show Answer</strong></mark></summary>
 
+**Answer:** **A. True**
+
+</details>
 9) **Huawei Cloud is responsible for all security, including tenant data security.**  
-Answer: **B. False**
+<details><summary><mark><strong>Show Answer</strong></mark></summary>
 
+**Answer:** **B. False**
+
+</details>
 10) **OBS is pay-per-use while EVS billing is based on allocated disk capacity.**  
-Answer: **A. True**
+<details><summary><mark><strong>Show Answer</strong></mark></summary>
 
+**Answer:** **A. True**
+
+</details>
 ### Part 2: Single Choice (11-20)
 
 11) **Which can be used to prevent resources in a VPC from communicating with each other?**  
-A. VPC  
-B. NAT gateway  
-C. Route table  
-D. Security group  
-Answer: **D**
 
+- A. VPC  
+- B. NAT gateway  
+- C. Route table  
+- D. Security group  
+<details><summary><mark><strong>Show Answer</strong></mark></summary>
+
+**Answer:** **D**
+
+</details>
 12) **Which statement is true about ECS?**  
-A. An ECS is a blade server.  
-B. You only have limited permissions on guest OS.  
-C. You must buy monthly/yearly for long-term use.  
-D. You cannot control hypervisor version/patches.  
-Answer: **D**
 
+- A. An ECS is a blade server.  
+- B. You only have limited permissions on guest OS.  
+- C. You must buy monthly/yearly for long-term use.  
+- D. You cannot control hypervisor version/patches.  
+<details><summary><mark><strong>Show Answer</strong></mark></summary>
+
+**Answer:** **D**
+
+</details>
 13) **Which statement is true about VPC Peering and Cloud Connect?**  
-A. VPC Peering can only connect VPCs of the same account.  
-B. Cloud Connect is free.  
-C. VPC Peering can connect VPCs across regions.  
-D. Cloud Connect can connect different VPCs in the same region.  
-Answer: **D**
 
+- A. VPC Peering can only connect VPCs of the same account.  
+- B. Cloud Connect is free.  
+- C. VPC Peering can connect VPCs across regions.  
+- D. Cloud Connect can connect different VPCs in the same region.  
+<details><summary><mark><strong>Show Answer</strong></mark></summary>
+
+**Answer:** **D**
+
+</details>
 14) **Which statement about cloud native is FALSE?**  
-A. Once migrated to cloud, an app is cloud native.  
-B. Cloud native is not only containerization.  
-C. Serverless lets developers focus on features.  
-D. Containers reduce coupling to servers.  
-Answer: **A**
 
+- A. Once migrated to cloud, an app is cloud native.  
+- B. Cloud native is not only containerization.  
+- C. Serverless lets developers focus on features.  
+- D. Containers reduce coupling to servers.  
+<details><summary><mark><strong>Show Answer</strong></mark></summary>
+
+**Answer:** **A**
+
+</details>
 15) **Which statement is TRUE?**  
-A. There are more regions than AZs.  
-B. A region with three AZs is geo-redundant DR.  
-C. Edge nodes are closer to users and more distributed than regions.  
-D. VPN is required between nodes in two AZs.  
-Answer: **C**
 
+- A. There are more regions than AZs.  
+- B. A region with three AZs is geo-redundant DR.  
+- C. Edge nodes are closer to users and more distributed than regions.  
+- D. VPN is required between nodes in two AZs.  
+<details><summary><mark><strong>Show Answer</strong></mark></summary>
+
+**Answer:** **C**
+
+</details>
 16) **For DDS testing without special availability/performance requirements, what is recommended?**  
-A. Single node  
-B. Replica set  
-C. Cluster  
-D. Primary/standby  
-Answer: **A**
 
+- A. Single node  
+- B. Replica set  
+- C. Cluster  
+- D. Primary/standby  
+<details><summary><mark><strong>Show Answer</strong></mark></summary>
+
+**Answer:** **A**
+
+</details>
 17) **Which statement is FALSE about ECS flavor C6.2xlarge.4?**  
-A. Suitable for high-performance stable computing.  
-B. Roughly half of c6.4xlarge.4 in spec and price.  
-C. It has 2 vCPUs.  
-D. Memory:vCPU ratio is 4 GB:1 vCPU.  
-Answer: **C**
 
+- A. Suitable for high-performance stable computing.  
+- B. Roughly half of c6.4xlarge.4 in spec and price.  
+- C. It has 2 vCPUs.  
+- D. Memory:vCPU ratio is 4 GB:1 vCPU.  
+<details><summary><mark><strong>Show Answer</strong></mark></summary>
+
+**Answer:** **C**
+
+</details>
 18) **What does ELB do when a backend server is unhealthy?**  
-A. Continue sending traffic and notify AS  
-B. Stop sending traffic to that backend  
-C. Only alarm and wait for user action  
-D. Replace backend automatically  
-Answer: **B**
 
+- A. Continue sending traffic and notify AS  
+- B. Stop sending traffic to that backend  
+- C. Only alarm and wait for user action  
+- D. Replace backend automatically  
+<details><summary><mark><strong>Show Answer</strong></mark></summary>
+
+**Answer:** **B**
+
+</details>
 19) **Which statement about EVS is FALSE?**  
-A. EVS provides 12-nines durability.  
-B. EVS disk space is pre-allocated and can be up to 32 TB per disk.  
-C. EVS is used as block storage by guest OS through OS APIs.  
-D. EVS backups are stored in OBS.  
-Answer: **A**
 
+- A. EVS provides 12-nines durability.  
+- B. EVS disk space is pre-allocated and can be up to 32 TB per disk.  
+- C. EVS is used as block storage by guest OS through OS APIs.  
+- D. EVS backups are stored in OBS.  
+<details><summary><mark><strong>Show Answer</strong></mark></summary>
+
+**Answer:** **A**
+
+</details>
 20) **According to shared responsibility model, which is the responsibility of customers?**  
-A. Provide cloud security services for servers  
-B. Apply security group firewall rules  
-C. Maintain physical infrastructure  
-D. Control ECS login permissions  
-Answer: **B**
 
+- A. Provide cloud security services for servers  
+- B. Apply security group firewall rules  
+- C. Maintain physical infrastructure  
+- D. Control ECS login permissions  
+<details><summary><mark><strong>Show Answer</strong></mark></summary>
+
+**Answer:** **B**
+
+</details>
 ### Part 3: Multiple Choice (21-30)
 
 21) **Which information can IAM use to identify a visitor?**  
-A. Linux root password  
-B. Windows administrator password  
-C. Account/IAM user name + password for console login  
-D. AK/SK for API access  
-Answer: **C, D**
 
+- A. Linux root password  
+- B. Windows administrator password  
+- C. Account/IAM user name + password for console login  
+- D. AK/SK for API access  
+<details><summary><mark><strong>Show Answer</strong></mark></summary>
+
+**Answer:** **C, D**
+
+</details>
 22) **Which benefits can a distributed system provide?**  
-A. Large resource pool  
-B. Balanced request pressure  
-C. Better fault recovery  
-D. Loosely coupled architecture  
-Answer: **A, B, C, D**
 
+- A. Large resource pool  
+- B. Balanced request pressure  
+- C. Better fault recovery  
+- D. Loosely coupled architecture  
+<details><summary><mark><strong>Show Answer</strong></mark></summary>
+
+**Answer:** **A, B, C, D**
+
+</details>
 23) **Which image types are available on Huawei Cloud?**  
-A. Public images  
-B. User data center images  
-C. Private images  
-D. Shared images  
-Answer: **A, C, D**
 
+- A. Public images  
+- B. User data center images  
+- C. Private images  
+- D. Shared images  
+<details><summary><mark><strong>Show Answer</strong></mark></summary>
+
+**Answer:** **A, C, D**
+
+</details>
 24) **Which database engines are supported by RDS?**  
-A. MySQL  
-B. MongoDB  
-C. PostgreSQL  
-D. Oracle  
-Answer: **A, C**
 
+- A. MySQL  
+- B. MongoDB  
+- C. PostgreSQL  
+- D. Oracle  
+<details><summary><mark><strong>Show Answer</strong></mark></summary>
+
+**Answer:** **A, C**
+
+</details>
 25) **Which statements about cloud-computing benefits are FALSE?**  
-A. No need to worry about security attacks.  
-B. Services can be provided in multiple geographies.  
-C. Abundant resources are available.  
-D. Resources are quickly obtained by making a phone call.  
-Answer: **A, D**
 
+- A. No need to worry about security attacks.  
+- B. Services can be provided in multiple geographies.  
+- C. Abundant resources are available.  
+- D. Resources are quickly obtained by making a phone call.  
+<details><summary><mark><strong>Show Answer</strong></mark></summary>
+
+**Answer:** **A, D**
+
+</details>
 26) **Which statements are TRUE about RDS?**  
-A. Automated backups use binlogs for point-in-time recovery.  
-B. Manual backups use binlogs.  
-C. Manual backups support PITR but automated backups do not.  
-D. Backups are stored in OBS.  
-Answer: **A, D**
 
+- A. Automated backups use binlogs for point-in-time recovery.  
+- B. Manual backups use binlogs.  
+- C. Manual backups support PITR but automated backups do not.  
+- D. Backups are stored in OBS.  
+<details><summary><mark><strong>Show Answer</strong></mark></summary>
+
+**Answer:** **A, D**
+
+</details>
 27) **Which methods can ELB use for backend health checks?**  
-A. Ping backend server  
-B. TCP connection to backend port  
-C. HTTP request to backend port  
-D. Check backend host power supply  
-Answer: **B, C**
 
+- A. Ping backend server  
+- B. TCP connection to backend port  
+- C. HTTP request to backend port  
+- D. Check backend host power supply  
+<details><summary><mark><strong>Show Answer</strong></mark></summary>
+
+**Answer:** **B, C**
+
+</details>
 28) **Which components are related to Huawei Cloud VPC?**  
-A. Subnet  
-B. Router  
-C. Security group  
-D. Switch  
-Answer: **A, C**
 
+- A. Subnet  
+- B. Router  
+- C. Security group  
+- D. Switch  
+<details><summary><mark><strong>Show Answer</strong></mark></summary>
+
+**Answer:** **A, C**
+
+</details>
 29) **Which statements are FALSE about Cloud Trace Service (CTS)?**  
-A. It records access to Huawei Cloud APIs.  
-B. It is used for security audit and traceability.  
-C. CTS is not free and must always be charged.  
-D. Long-term trace storage in OBS is always free of charge.  
-Answer: **C, D**
 
+- A. It records access to Huawei Cloud APIs.  
+- B. It is used for security audit and traceability.  
+- C. CTS is not free and must always be charged.  
+- D. Long-term trace storage in OBS is always free of charge.  
+<details><summary><mark><strong>Show Answer</strong></mark></summary>
+
+**Answer:** **C, D**
+
+</details>
 30) **What functions does DAS provide for database development and O&M?**  
-A. Online SQL/database operations without local client installation  
-B. Host/instance performance analysis  
-C. Real-time performance diagnosis  
-D. Rich development features (for example SQL prompt/sync tooling)  
-Answer: **A, B, C, D**
+
+- A. Online SQL/database operations without local client installation  
+- B. Host/instance performance analysis  
+- C. Real-time performance diagnosis  
+- D. Rich development features (for example SQL prompt/sync tooling)  
+<details><summary><mark><strong>Show Answer</strong></mark></summary>
+
+**Answer:** **A, B, C, D**
+
+</details>
 
 ## Corrections & Clarifications (High-Yield)
 
@@ -1346,4 +1457,7 @@ B. Customer/tenant
 C. Internet service provider  
 D. Hardware vendor  
 Answer: **B**
+
+
+
 
