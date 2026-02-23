@@ -1,0 +1,4 @@
+﻿# Unused local/source files
+*.pdf
+*.zip
+.vscode/
