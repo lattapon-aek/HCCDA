@@ -1,17 +1,17 @@
 ﻿# HCCDA Study Notes
 
 ## Table of Contents
-- [Chapter 1](#chapter-1)
-- [Chapter 2](#chapter-2)
-- [Chapter 3](#chapter-3)
-- [Chapter 4](#chapter-4)
-- [Chapter 5](#chapter-5)
-- [Chapter 6](#chapter-6)
-- [Chapter 7](#chapter-7)
-- [Chapter 8](#chapter-8)
-- [Chapter 9](#chapter-9)
+- [Chapter 1: Diving into Huawei Cloud](#chapter-1-diving-into-huawei-cloud)
+- [Chapter 2: Compute Services](#chapter-2-compute-services)
+- [Chapter 3: Storage Services](#chapter-3-storage-services)
+- [Chapter 4: Networking Services](#chapter-4-networking-services)
+- [Chapter 5: Database Services](#chapter-5-database-services)
+- [Chapter 6: Security Services](#chapter-6-security-services)
+- [Chapter 7: Elastic Cloud Services for Distributed Deployment](#chapter-7-elastic-cloud-services-for-distributed-deployment)
+- [Chapter 8: Cloud Native and Transformation](#chapter-8-cloud-native-and-transformation)
+- [Chapter 9: Exam Outline and Sample Questions](#chapter-9-exam-outline-and-sample-questions)
 
-### Chapter 1 Images from PDF
+### Chapter 1: Diving into Huawei Cloud - Images from PDF
 <details>
 <summary>Click to expand Chapter 1 images (41 pages)</summary>
 
@@ -59,10 +59,10 @@
 
 </details>
 
-## Chapter 1
+## Chapter 1: Diving into Huawei Cloud
 
 <!-- CHAPTER_FOCUS_CH1_START -->
-### Focus Highlights (Chapter 1)
+### Focus Highlights (Chapter 1: Diving into Huawei Cloud)
 - <mark>Cloud Value</mark>: on-demand + pay-as-you-go reduces CAPEX and improves agility
 - <mark>Core Models</mark>: clearly distinguish IaaS / PaaS / SaaS responsibilities
 - <mark>Region vs AZ</mark>: Region is geography; AZ is fault-isolated data center zone
@@ -190,7 +190,7 @@ Console แสดง Dashboard, Resource overview, My Resources (ECS, Storage �
 > **Answer:** C
 > **Note:** ตัวเลขในข้อนี้อ้างอิงตามเอกสารชุดเรียนเดิม; ข้อมูล Global Infrastructure ปัจจุบันมีจำนวน Region/AZ มากขึ้น
 
-### Chapter 2 Images from PDF
+### Chapter 2: Compute Services - Images from PDF
 <details>
 <summary>Click to expand Chapter 2 images (30 pages)</summary>
 
@@ -227,10 +227,10 @@ Console แสดง Dashboard, Resource overview, My Resources (ECS, Storage �
 
 </details>
 
-## Chapter 2
+## Chapter 2: Compute Services
 
 <!-- CHAPTER_FOCUS_CH2_START -->
-### Focus Highlights (Chapter 2)
+### Focus Highlights (Chapter 2: Compute Services)
 - <mark>ECS</mark>: flexible VM; choose billing mode based on workload pattern
 - <mark>DeH</mark>: dedicated host for strong isolation/compliance requirements
 - <mark>BMS</mark>: best for high-performance workloads (HPC/Big Data)
@@ -312,7 +312,7 @@ Image Types: Public image (Huawei provided), Private image (สร้างเ�
 - D. Image ที่แชร์จาก tenant อื่น
 > **Answer:** B — Private Image คือ image ที่ผู้ใช้สร้างจาก ECS (capture) หรืออัปโหลดเข้า IMS เอง ไม่ใช่ public/marketplace/shared
 
-### Chapter 3 Images from PDF
+### Chapter 3: Storage Services - Images from PDF
 <details>
 <summary>Click to expand Chapter 3 images (34 pages)</summary>
 
@@ -353,10 +353,10 @@ Image Types: Public image (Huawei provided), Private image (สร้างเ�
 
 </details>
 
-## Chapter 3
+## Chapter 3: Storage Services
 
 <!-- CHAPTER_FOCUS_CH3_START -->
-### Focus Highlights (Chapter 3)
+### Focus Highlights (Chapter 3: Storage Services)
 - <mark>OBS</mark>: object storage for static/media/backup content
 - <mark>EVS</mark>: block storage for ECS system/data disks
 - <mark>SFS</mark>: shared file system for multi-ECS access
@@ -436,7 +436,7 @@ SFS Turbo = High-performance version สำหรับ workload ที่ต้
 - C. Ultra-high I/O (SSD)
 > **Answer:** C — Ultra-high I/O (SSD) ให้ IOPS/throughput สูงสุดในกลุ่ม EVS
 
-### Chapter 4 Images from PDF
+### Chapter 4: Networking Services - Images from PDF
 <details>
 <summary>Click to expand Chapter 4 images (36 pages)</summary>
 
@@ -479,10 +479,10 @@ SFS Turbo = High-performance version สำหรับ workload ที่ต้
 
 </details>
 
-## Chapter 4
+## Chapter 4: Networking Services
 
 <!-- CHAPTER_FOCUS_CH4_START -->
-### Focus Highlights (Chapter 4)
+### Focus Highlights (Chapter 4: Networking Services)
 - <mark>Security Group</mark> = stateful (instance-level)
 - <mark>Network ACL</mark> = stateless (subnet-level)
 - <mark>SNAT vs DNAT/EIP</mark>: use SNAT for outbound, use DNAT/EIP for inbound
@@ -558,7 +558,7 @@ ELB (Elastic Load Balance): กระจาย Traffic ไปยังหลา�
 - D. จัดการ DNS
 > **Answer:** B — กระจาย Traffic ไปยังหลาย ECS
  
-### Chapter 5 Images from PDF
+### Chapter 5: Database Services - Images from PDF
 <details>
 <summary>Click to expand Chapter 5 images (37 pages)</summary>
 
@@ -602,10 +602,10 @@ ELB (Elastic Load Balance): กระจาย Traffic ไปยังหลา�
 
 </details>
 
-## Chapter 5
+## Chapter 5: Database Services
 
 <!-- CHAPTER_FOCUS_CH5_START -->
-### Focus Highlights (Chapter 5)
+### Focus Highlights (Chapter 5: Database Services)
 - <mark>RDS</mark>: managed relational DB with backup/failover capabilities
 - <mark>Engine/Version</mark>: always verify availability by Region
 - <mark>DAS</mark>: O&M/SQL web tool, not a database engine
@@ -684,7 +684,7 @@ DAS คือ Web-based Database management tool บน Huawei Cloud
 - D. Distributed Application Server
 > **Answer:** B — Web-based tool จัดการ Database ผ่าน Browser
 
-### Chapter 6 Images from PDF
+### Chapter 6: Security Services - Images from PDF
 <details>
 <summary>Click to expand Chapter 6 images (35 pages)</summary>
 
@@ -726,10 +726,10 @@ DAS คือ Web-based Database management tool บน Huawei Cloud
 
 </details>
 
-## Chapter 6
+## Chapter 6: Security Services
 
 <!-- CHAPTER_FOCUS_CH6_START -->
-### Focus Highlights (Chapter 6)
+### Focus Highlights (Chapter 6: Security Services)
 - <mark>Shared Responsibility</mark>: provider handles infra, tenant handles OS/app/data/config
 - <mark>IAM/KMS/CTS</mark>: identity + key management + audit trail
 - <mark>WAF vs Anti-DDoS</mark>: L7 web attacks vs L3/L4 volumetric
@@ -804,7 +804,7 @@ Security หลายชั้น: Network (Security Group, WAF) → Host (HSS) 
 - D. Disk failure
 > **Answer:** B — Web Application attacks เช่น SQL Injection, XSS (OWASP Top 10)
 
-### Chapter 7 Images from PDF
+### Chapter 7: Elastic Cloud Services for Distributed Deployment - Images from PDF
 <details>
 <summary>Click to expand Chapter 7 images (40 pages)</summary>
 
@@ -851,10 +851,10 @@ Security หลายชั้น: Network (Security Group, WAF) → Host (HSS) 
 
 </details>
 
-## Chapter 7
+## Chapter 7: Elastic Cloud Services for Distributed Deployment
 
 <!-- CHAPTER_FOCUS_CH7_START -->
-### Focus Highlights (Chapter 7)
+### Focus Highlights (Chapter 7: Elastic Cloud Services for Distributed Deployment)
 - <mark>Scale Up</mark>: increase spec on existing instance
 - <mark>Scale Out</mark>: increase number of ECS instances
 - <mark>ELB + AS</mark>: load distribution + policy-based auto scaling
@@ -928,7 +928,7 @@ Scalable applications ช่วย optimize cost และ improve resource util
 - D. ลด Network latency
 > **Answer:** B — เพิ่ม High Availability โดยป้องกัน AZ failure
 
-### Chapter 8 Images from PDF
+### Chapter 8: Cloud Native and Transformation - Images from PDF
 <details>
 <summary>Click to expand Chapter 8 images (25 pages)</summary>
 
@@ -960,10 +960,10 @@ Scalable applications ช่วย optimize cost และ improve resource util
 
 </details>
 
-## Chapter 8
+## Chapter 8: Cloud Native and Transformation
 
 <!-- CHAPTER_FOCUS_CH8_START -->
-### Focus Highlights (Chapter 8)
+### Focus Highlights (Chapter 8: Cloud Native and Transformation)
 - <mark>Cloud Native</mark>: microservices + containers + DevOps/CI-CD
 - <mark>CCE</mark>: managed Kubernetes service
 - <mark>FunctionGraph</mark>: serverless, pay-per-execution
@@ -1032,10 +1032,10 @@ Observability: Logging, Monitoring (AOM), Tracing เพื่อ Debug แล�
 - D. ลด Collaboration ระหว่างทีม
 > **Answer:** B — เพิ่ม Time-to-market โดย Automate Build, Test, Deploy
 
-## Chapter 9
+## Chapter 9: Exam Outline and Sample Questions
 
 <!-- CHAPTER_FOCUS_CH9_START -->
-### Focus Highlights (Chapter 9)
+### Focus Highlights (Chapter 9: Exam Outline and Sample Questions)
 - <mark>Exam Logic</mark>: ใช้การวิเคราะห์สถานการณ์ ไม่ยึดแค่การจำคีย์เวิร์ด
 - <mark>Must-Know</mark>: shared responsibility, HA/Multi-AZ, elasticity
 - <mark>Network & Security</mark>: SG/ACL/NAT/ELB/CTS/WAF ต้องแยกบทบาทให้ชัด
@@ -1249,7 +1249,7 @@ Answer: **A, B, C, D**
 
 ## Additional Practice Questions by Chapter
 
-### Chapter 1
+### Chapter 1: Diving into Huawei Cloud
 **Question: Which best describes cloud computing value?**  
 A. One-time purchase with fixed capacity only  
 B. On-demand IT resources with pay-as-you-go billing  
@@ -1257,7 +1257,7 @@ C. Physical server dedicated to one team only
 D. Offline software delivery model  
 Answer: **B**
 
-### Chapter 2
+### Chapter 2: Compute Services
 **Question: Which service provides a dedicated physical host for one tenant?**  
 A. ECS  
 B. IMS  
@@ -1265,7 +1265,7 @@ C. DeH
 D. CCE  
 Answer: **C**
 
-### Chapter 3
+### Chapter 3: Storage Services
 **Question: Which service is most suitable for static website hosting (images/videos)?**  
 A. EVS  
 B. SFS  
@@ -1273,7 +1273,7 @@ C. OBS
 D. DSS  
 Answer: **C**
 
-### Chapter 4
+### Chapter 4: Networking Services
 **Question: Which is stateful?**  
 A. Network ACL  
 B. Security Group  
@@ -1288,7 +1288,7 @@ C. EIP or DNAT
 D. ELB only  
 Answer: **C**
 
-### Chapter 5
+### Chapter 5: Database Services
 **Question: Can RDS Primary/Standby be deployed across regions?**  
 A. True  
 B. False  
@@ -1301,7 +1301,7 @@ C. Load balancing
 D. Object storage  
 Answer: **B**
 
-### Chapter 6
+### Chapter 6: Security Services
 **Question: Which attack is more suitable for Anti-DDoS than WAF?**  
 A. SQL Injection  
 B. XSS  
@@ -1316,7 +1316,7 @@ C. Resource + Action
 D. Project only  
 Answer: **C**
 
-### Chapter 7
+### Chapter 7: Elastic Cloud Services for Distributed Deployment
 **Question: What does ELB do when health check finds an unhealthy ECS?**  
 A. Disable VPC  
 B. Stop routing traffic to that ECS  
@@ -1324,7 +1324,7 @@ C. Delete ECS
 D. Reboot immediately  
 Answer: **B**
 
-### Chapter 8
+### Chapter 8: Cloud Native and Transformation
 **Question: What is the smallest deployable unit in Kubernetes?**  
 A. Node  
 B. Service  
@@ -1339,10 +1339,11 @@ C. Pay-per-execution
 D. Free  
 Answer: **C**
 
-### Chapter 9
+### Chapter 9: Exam Outline and Sample Questions
 **Question: In shared responsibility model, who is responsible for setting ECS security group rules?**  
 A. Cloud provider only  
 B. Customer/tenant  
 C. Internet service provider  
 D. Hardware vendor  
 Answer: **B**
+
