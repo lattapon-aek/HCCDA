@@ -139,7 +139,7 @@ Console แสดง Dashboard, Resource overview, My Resources (ECS, Storage �
 +---------------------------------------------------+
 ```
 
-🧪 แบบทดสอบ (5 ข้อ)
+<span style="background-color: #fff3e0; color: #e65100; font-weight: bold; padding: 2px 6px; border-radius: 4px;">🧪 แบบทดสอบ (5 ข้อ)</span>
 
 <!-- DIAGRAM_SNAPSHOT_CH1_START -->
 ```text
@@ -262,7 +262,7 @@ Features: Dedicated computing resources, VPC + Security group, No virtualization
 IMS ให้บริการ OS Image สำหรับสร้าง ECS
 Image Types: Public image (Huawei provided), Private image (สร้างเอง), Shared image, Marketplace image
 สามารถ Export/Import image ระหว่าง Region หรือสร้างจาก ECS ที่มีอยู่
-🧪 แบบทดสอบ (5 ข้อ)
+<span style="background-color: #fff3e0; color: #e65100; font-weight: bold; padding: 2px 6px; border-radius: 4px;">🧪 แบบทดสอบ (5 ข้อ)</span>
 
 <!-- DIAGRAM_SNAPSHOT_CH2_START -->
 ```text
@@ -387,7 +387,7 @@ SFS คือ Shared file storage แบบ NFS protocol
 ให้หลาย ECS เข้าถึง Shared folder เดียวกันพร้อมกันได้
 SFS Turbo = High-performance version สำหรับ workload ที่ต้องการ IOPS สูง
 เหมาะกับ: Content Management, HPC, ERP, Web server farm ที่ต้องแชร์ไฟล์
-🧪 แบบทดสอบ (5 ข้อ)
+<span style="background-color: #fff3e0; color: #e65100; font-weight: bold; padding: 2px 6px; border-radius: 4px;">🧪 แบบทดสอบ (5 ข้อ)</span>
 
 <!-- DIAGRAM_SNAPSHOT_CH3_START -->
 ```text
@@ -508,7 +508,7 @@ ELB (Elastic Load Balance): กระจาย Traffic ไปยังหลา�
 ใช้ Security Group ควบคุม Access ระดับ Instance
 ใช้ NAT Gateway แทน EIP เพื่อลดการ expose Public IP โดยตรง
 ใช้ VPC Peering หรือ Transit Gateway เชื่อมต่อหลาย VPC
-🧪 แบบทดสอบ (5 ข้อ)
+<span style="background-color: #fff3e0; color: #e65100; font-weight: bold; padding: 2px 6px; border-radius: 4px;">🧪 แบบทดสอบ (5 ข้อ)</span>
 
 <!-- DIAGRAM_SNAPSHOT_CH4_START -->
 ```text
@@ -634,7 +634,7 @@ DAS คือ Web-based Database management tool บน Huawei Cloud
 ใช้จัดการ Database ผ่าน Browser โดยไม่ต้องติดตั้ง Client
 รองรับ: Query editor, Table management, Data import/export, Monitoring
 เหมาะกับ DBA และ Developer ที่ต้องการ เข้าถึง DB แบบ Secure บน Cloud
-🧪 แบบทดสอบ (5 ข้อ)
+<span style="background-color: #fff3e0; color: #e65100; font-weight: bold; padding: 2px 6px; border-radius: 4px;">🧪 แบบทดสอบ (5 ข้อ)</span>
 
 <!-- DIAGRAM_SNAPSHOT_CH5_START -->
 ```text
@@ -754,7 +754,7 @@ HSS (Host Security Service): Anti-malware, Vulnerability scan สำหรับ
 WAF (Web Application Firewall): ป้องกัน OWASP Top 10, DDoS
 WAF ป้องกัน L7 web attacks (SQLi, XSS, OWASP Top10) ส่วน volumetric DDoS ใช้ Anti-DDoS service แยกต่างหาก
 Security หลายชั้น: Network (Security Group, WAF) → Host (HSS) → Data (KMS, CTS)
-🧪 แบบทดสอบ (5 ข้อ)
+<span style="background-color: #fff3e0; color: #e65100; font-weight: bold; padding: 2px 6px; border-radius: 4px;">🧪 แบบทดสอบ (5 ข้อ)</span>
 
 <!-- DIAGRAM_SNAPSHOT_CH6_START -->
 ```text
@@ -878,7 +878,7 @@ AS Group กำหนด Min/Max/Desired instances เพื่อควบค�
 Cache layer: DCS (Redis) ลด Load ให้ Database
 CDN: กระจาย Static content ใกล้ผู้ใช้ ลด Latency
 Scalable applications ช่วย optimize cost และ improve resource utilization เมื่อเทียบกับการเตรียมทรัพยากรแบบ fixed capacity
-🧪 แบบทดสอบ (5 ข้อ)
+<span style="background-color: #fff3e0; color: #e65100; font-weight: bold; padding: 2px 6px; border-radius: 4px;">🧪 แบบทดสอบ (5 ข้อ)</span>
 
 <!-- DIAGRAM_SNAPSHOT_CH7_START -->
 ```text
@@ -983,7 +983,7 @@ Microservices: แบ่ง Application เป็น Service เล็กๆ อ
 ServiceMesh (Istio): จัดการ Service-to-service communication, Observability
 DevOps + CI/CD: CodeArts บน Huawei Cloud รองรับ Code hosting, Build, Test, Deploy
 Observability: Logging, Monitoring (AOM), Tracing เพื่อ Debug และ Optimize
-🧪 แบบทดสอบ (5 ข้อ)
+<span style="background-color: #fff3e0; color: #e65100; font-weight: bold; padding: 2px 6px; border-radius: 4px;">🧪 แบบทดสอบ (5 ข้อ)</span>
 <!-- DIAGRAM_SNAPSHOT_CH8_START -->
 ```text
 +---------------- Chapter 8 Snapshot ----------------+
@@ -1032,7 +1032,9 @@ Observability: Logging, Monitoring (AOM), Tracing เพื่อ Debug แล�
 - D. ลด Collaboration ระหว่างทีม
 > **Answer:** B — เพิ่ม Time-to-market โดย Automate Build, Test, Deploy
 
-## Chapter 9: Exam Outline and Sample Questions
+## <span style="color: #c0392b;">Chapter 9: Exam Outline and Sample Questions</span>
+
+> <span style="background-color: #ffebee; color: #b71c1c; font-weight: bold; padding: 3px 8px; border-radius: 4px;">🎯 EXAM SECTION — ข้อสอบจริง 30 ข้อ (T/F 10 + Single Choice 10 + Multiple Choice 10)</span>
 
 <!-- CHAPTER_FOCUS_CH9_START -->
 ### Focus Highlights (Chapter 9: Exam Outline and Sample Questions)
@@ -1358,7 +1360,9 @@ Total 30 questions | T/F: 10 | Single Choice: 10 | Multiple Choice: 10
 - **DAS**: DAS is a database O&M platform, not a database engine.
 - **Storage quick map**: OBS for object/static content, EVS for VM block disks, SFS for shared file (NFS-like) workloads.
 
-## Additional Practice Questions by Chapter
+## <span style="color: #c0392b;">Additional Practice Questions by Chapter</span>
+
+> <span style="background-color: #ffebee; color: #b71c1c; font-weight: bold; padding: 3px 8px; border-radius: 4px;">📝 ข้อสอบเพิ่มเติม — แยกตามบท (ฝึกก่อนสอบ)</span>
 
 ### Chapter 1: Diving into Huawei Cloud
 **Question: Which best describes cloud computing value?**  
