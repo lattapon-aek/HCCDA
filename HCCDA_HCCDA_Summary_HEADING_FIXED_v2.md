@@ -1058,61 +1058,71 @@ Total 30 questions | T/F: 10 | Single Choice: 10 | Multiple Choice: 10
 
 ### Part 1: True / False (1-10)
 
-1) **If there are not enough servers, you can increase server quotas or upgrade the specifications of existing servers.**  
+1) **If there are not enough servers, you can increase server quotas or upgrade the specifications of existing servers.**
+*(หากเซิร์ฟเวอร์ไม่เพียงพอ สามารถเพิ่ม Quota หรืออัปเกรดสเปกเซิร์ฟเวอร์ที่มีอยู่ได้)*
 <details><summary><mark><strong>Show Answer</strong></mark></summary>
 
 **Answer:** **A. True**
 
 </details>
-2) **An RDS for MySQL primary/standby DB instance can be deployed only in one region.**  
+2) **An RDS for MySQL primary/standby DB instance can be deployed only in one region.**
+*(DB Instance แบบ Primary/Standby ของ RDS for MySQL สามารถ Deploy ได้ใน Region เดียวเท่านั้น)*
 <details><summary><mark><strong>Show Answer</strong></mark></summary>
 
 **Answer:** **A. True**
 
 </details>
-3) **A customer using Direct Connect or VPN between cloud and on-premises should use different CIDR blocks to avoid conflicts.**  
+3) **A customer using Direct Connect or VPN between cloud and on-premises should use different CIDR blocks to avoid conflicts.**
+*(ลูกค้าที่ใช้ Direct Connect หรือ VPN เชื่อม Cloud กับ On-premises ควรใช้ CIDR Block ที่แตกต่างกันเพื่อป้องกัน IP ชนกัน)*
 <details><summary><mark><strong>Show Answer</strong></mark></summary>
 
 **Answer:** **A. True**
 
 </details>
-4) **FunctionGraph enables users to focus on service logic instead of building container images.**  
+4) **FunctionGraph enables users to focus on service logic instead of building container images.**
+*(FunctionGraph ช่วยให้ผู้ใช้โฟกัสที่ Service Logic โดยไม่ต้องสร้าง Container Image เอง)*
 <details><summary><mark><strong>Show Answer</strong></mark></summary>
 
 **Answer:** **A. True**
 
 </details>
-5) **If one AZ fails, other AZs in the same region are generally isolated from that fault.**  
+5) **If one AZ fails, other AZs in the same region are generally isolated from that fault.**
+*(หาก AZ หนึ่งล้มเหลว AZ อื่นใน Region เดียวกันโดยทั่วไปจะแยกตัวออกจากความผิดพลาดนั้น)*
 <details><summary><mark><strong>Show Answer</strong></mark></summary>
 
 **Answer:** **A. True**
 
 </details>
-6) **Yearly/monthly ECS can save money, but may cost more if not suitable for the workload.**  
+6) **Yearly/monthly ECS can save money, but may cost more if not suitable for the workload.**
+*(ECS แบบรายปี/รายเดือนประหยัดค่าใช้จ่ายได้ แต่อาจแพงกว่าหากรูปแบบไม่เหมาะกับ Workload)*
 <details><summary><mark><strong>Show Answer</strong></mark></summary>
 
 **Answer:** **A. True**
 
 </details>
-7) **ELB can route requests to backend servers across regions.**  
+7) **ELB can route requests to backend servers across regions.**
+*(ELB สามารถส่ง Request ไปยัง Backend Server ข้าม Region ได้)*
 <details><summary><mark><strong>Show Answer</strong></mark></summary>
 
 **Answer:** **B. False**
 
 </details>
-8) **Elastic design improves reliability while helping with cost and performance targets.**  
+8) **Elastic design improves reliability while helping with cost and performance targets.**
+*(การออกแบบแบบ Elastic ช่วยเพิ่มความน่าเชื่อถือพร้อมควบคุมต้นทุนและประสิทธิภาพไปด้วยกัน)*
 <details><summary><mark><strong>Show Answer</strong></mark></summary>
 
 **Answer:** **A. True**
 
 </details>
-9) **Huawei Cloud is responsible for all security, including tenant data security.**  
+9) **Huawei Cloud is responsible for all security, including tenant data security.**
+*(Huawei Cloud รับผิดชอบด้านความปลอดภัยทั้งหมด รวมถึงความปลอดภัยของข้อมูล Tenant ด้วย)*
 <details><summary><mark><strong>Show Answer</strong></mark></summary>
 
 **Answer:** **B. False**
 
 </details>
-10) **OBS is pay-per-use while EVS billing is based on allocated disk capacity.**  
+10) **OBS is pay-per-use while EVS billing is based on allocated disk capacity.**
+*(OBS คิดค่าบริการตามการใช้งานจริง ส่วน EVS คิดตามความจุดิสก์ที่จัดสรรไว้)*
 <details><summary><mark><strong>Show Answer</strong></mark></summary>
 
 **Answer:** **A. True**
@@ -1120,111 +1130,121 @@ Total 30 questions | T/F: 10 | Single Choice: 10 | Multiple Choice: 10
 </details>
 ### Part 2: Single Choice (11-20)
 
-11) **Which can be used to prevent resources in a VPC from communicating with each other?**  
+11) **Which can be used to prevent resources in a VPC from communicating with each other?**
+*(บริการใดสามารถใช้ป้องกันไม่ให้ทรัพยากรใน VPC สื่อสารกันเองได้?)*
 
-- A. VPC  
-- B. NAT gateway  
-- C. Route table  
-- D. Security group  
+- A. VPC
+- B. NAT gateway
+- C. Route table
+- D. Security group
 <details><summary><mark><strong>Show Answer</strong></mark></summary>
 
 **Answer:** **D**
 
 </details>
-12) **Which statement is true about ECS?**  
+12) **Which statement is true about ECS?**
+*(ข้อใดกล่าวถูกต้องเกี่ยวกับ ECS?)*
 
-- A. An ECS is a blade server.  
-- B. You only have limited permissions on guest OS.  
-- C. You must buy monthly/yearly for long-term use.  
-- D. You cannot control hypervisor version/patches.  
+- A. An ECS is a blade server.
+- B. You only have limited permissions on guest OS.
+- C. You must buy monthly/yearly for long-term use.
+- D. You cannot control hypervisor version/patches.
 <details><summary><mark><strong>Show Answer</strong></mark></summary>
 
 **Answer:** **D**
 
 </details>
-13) **Which statement is true about VPC Peering and Cloud Connect?**  
+13) **Which statement is true about VPC Peering and Cloud Connect?**
+*(ข้อใดกล่าวถูกต้องเกี่ยวกับ VPC Peering และ Cloud Connect?)*
 
-- A. VPC Peering can only connect VPCs of the same account.  
-- B. Cloud Connect is free.  
-- C. VPC Peering can connect VPCs across regions.  
-- D. Cloud Connect can connect different VPCs in the same region.  
+- A. VPC Peering can only connect VPCs of the same account.
+- B. Cloud Connect is free.
+- C. VPC Peering can connect VPCs across regions.
+- D. Cloud Connect can connect different VPCs in the same region.
 <details><summary><mark><strong>Show Answer</strong></mark></summary>
 
 **Answer:** **D**
 
 </details>
-14) **Which statement about cloud native is FALSE?**  
+14) **Which statement about cloud native is FALSE?**
+*(ข้อใดกล่าวผิดเกี่ยวกับ Cloud Native?)*
 
-- A. Once migrated to cloud, an app is cloud native.  
-- B. Cloud native is not only containerization.  
-- C. Serverless lets developers focus on features.  
-- D. Containers reduce coupling to servers.  
+- A. Once migrated to cloud, an app is cloud native.
+- B. Cloud native is not only containerization.
+- C. Serverless lets developers focus on features.
+- D. Containers reduce coupling to servers.
 <details><summary><mark><strong>Show Answer</strong></mark></summary>
 
 **Answer:** **A**
 
 </details>
-15) **Which statement is TRUE?**  
+15) **Which statement is TRUE?**
+*(ข้อใดกล่าวถูกต้อง?)*
 
-- A. There are more regions than AZs.  
-- B. A region with three AZs is geo-redundant DR.  
-- C. Edge nodes are closer to users and more distributed than regions.  
-- D. VPN is required between nodes in two AZs.  
+- A. There are more regions than AZs.
+- B. A region with three AZs is geo-redundant DR.
+- C. Edge nodes are closer to users and more distributed than regions.
+- D. VPN is required between nodes in two AZs.
 <details><summary><mark><strong>Show Answer</strong></mark></summary>
 
 **Answer:** **C**
 
 </details>
-16) **For DDS testing without special availability/performance requirements, what is recommended?**  
+16) **For DDS testing without special availability/performance requirements, what is recommended?**
+*(สำหรับการทดสอบ DDS ที่ไม่มีความต้องการพิเศษด้าน Availability หรือ Performance ควรใช้รูปแบบใด?)*
 
-- A. Single node  
-- B. Replica set  
-- C. Cluster  
-- D. Primary/standby  
+- A. Single node
+- B. Replica set
+- C. Cluster
+- D. Primary/standby
 <details><summary><mark><strong>Show Answer</strong></mark></summary>
 
 **Answer:** **A**
 
 </details>
-17) **Which statement is FALSE about ECS flavor C6.2xlarge.4?**  
+17) **Which statement is FALSE about ECS flavor C6.2xlarge.4?**
+*(ข้อใดกล่าวผิดเกี่ยวกับ ECS Flavor C6.2xlarge.4?)*
 
-- A. Suitable for high-performance stable computing.  
-- B. Roughly half of c6.4xlarge.4 in spec and price.  
-- C. It has 2 vCPUs.  
-- D. Memory:vCPU ratio is 4 GB:1 vCPU.  
+- A. Suitable for high-performance stable computing.
+- B. Roughly half of c6.4xlarge.4 in spec and price.
+- C. It has 2 vCPUs.
+- D. Memory:vCPU ratio is 4 GB:1 vCPU.
 <details><summary><mark><strong>Show Answer</strong></mark></summary>
 
 **Answer:** **C**
 
 </details>
-18) **What does ELB do when a backend server is unhealthy?**  
+18) **What does ELB do when a backend server is unhealthy?**
+*(ELB จะทำอะไรเมื่อ Backend Server ผิดปกติ?)*
 
-- A. Continue sending traffic and notify AS  
-- B. Stop sending traffic to that backend  
-- C. Only alarm and wait for user action  
-- D. Replace backend automatically  
+- A. Continue sending traffic and notify AS
+- B. Stop sending traffic to that backend
+- C. Only alarm and wait for user action
+- D. Replace backend automatically
 <details><summary><mark><strong>Show Answer</strong></mark></summary>
 
 **Answer:** **B**
 
 </details>
-19) **Which statement about EVS is FALSE?**  
+19) **Which statement about EVS is FALSE?**
+*(ข้อใดกล่าวผิดเกี่ยวกับ EVS?)*
 
-- A. EVS provides 12-nines durability.  
-- B. EVS disk space is pre-allocated and can be up to 32 TB per disk.  
-- C. EVS is used as block storage by guest OS through OS APIs.  
-- D. EVS backups are stored in OBS.  
+- A. EVS provides 12-nines durability.
+- B. EVS disk space is pre-allocated and can be up to 32 TB per disk.
+- C. EVS is used as block storage by guest OS through OS APIs.
+- D. EVS backups are stored in OBS.
 <details><summary><mark><strong>Show Answer</strong></mark></summary>
 
 **Answer:** **A**
 
 </details>
-20) **According to shared responsibility model, which is the responsibility of customers?**  
+20) **According to shared responsibility model, which is the responsibility of customers?**
+*(ตาม Shared Responsibility Model ข้อใดเป็นความรับผิดชอบของลูกค้า?)*
 
-- A. Provide cloud security services for servers  
-- B. Apply security group firewall rules  
-- C. Maintain physical infrastructure  
-- D. Control ECS login permissions  
+- A. Provide cloud security services for servers
+- B. Apply security group firewall rules
+- C. Maintain physical infrastructure
+- D. Control ECS login permissions
 <details><summary><mark><strong>Show Answer</strong></mark></summary>
 
 **Answer:** **B**
@@ -1232,111 +1252,121 @@ Total 30 questions | T/F: 10 | Single Choice: 10 | Multiple Choice: 10
 </details>
 ### Part 3: Multiple Choice (21-30)
 
-21) **Which information can IAM use to identify a visitor?**  
+21) **Which information can IAM use to identify a visitor?**
+*(IAM สามารถใช้ข้อมูลใดในการระบุตัวตนผู้เข้าใช้งาน? (เลือกได้หลายข้อ))*
 
-- A. Linux root password  
-- B. Windows administrator password  
-- C. Account/IAM user name + password for console login  
-- D. AK/SK for API access  
+- A. Linux root password
+- B. Windows administrator password
+- C. Account/IAM user name + password for console login
+- D. AK/SK for API access
 <details><summary><mark><strong>Show Answer</strong></mark></summary>
 
 **Answer:** **C, D**
 
 </details>
-22) **Which benefits can a distributed system provide?**  
+22) **Which benefits can a distributed system provide?**
+*(ระบบ Distributed สามารถมอบประโยชน์ใดได้บ้าง? (เลือกได้หลายข้อ))*
 
-- A. Large resource pool  
-- B. Balanced request pressure  
-- C. Better fault recovery  
-- D. Loosely coupled architecture  
+- A. Large resource pool
+- B. Balanced request pressure
+- C. Better fault recovery
+- D. Loosely coupled architecture
 <details><summary><mark><strong>Show Answer</strong></mark></summary>
 
 **Answer:** **A, B, C, D**
 
 </details>
-23) **Which image types are available on Huawei Cloud?**  
+23) **Which image types are available on Huawei Cloud?**
+*(ประเภท Image ใดบ้างที่มีให้บน Huawei Cloud? (เลือกได้หลายข้อ))*
 
-- A. Public images  
-- B. User data center images  
-- C. Private images  
-- D. Shared images  
+- A. Public images
+- B. User data center images
+- C. Private images
+- D. Shared images
 <details><summary><mark><strong>Show Answer</strong></mark></summary>
 
 **Answer:** **A, C, D**
 
 </details>
-24) **Which database engines are supported by RDS?**  
+24) **Which database engines are supported by RDS?**
+*(Database Engine ใดบ้างที่ RDS รองรับ? (เลือกได้หลายข้อ))*
 
-- A. MySQL  
-- B. MongoDB  
-- C. PostgreSQL  
-- D. Oracle  
+- A. MySQL
+- B. MongoDB
+- C. PostgreSQL
+- D. Oracle
 <details><summary><mark><strong>Show Answer</strong></mark></summary>
 
 **Answer:** **A, C**
 
 </details>
-25) **Which statements about cloud-computing benefits are FALSE?**  
+25) **Which statements about cloud-computing benefits are FALSE?**
+*(ข้อใดบ้างกล่าวผิดเกี่ยวกับประโยชน์ของ Cloud Computing? (เลือกได้หลายข้อ))*
 
-- A. No need to worry about security attacks.  
-- B. Services can be provided in multiple geographies.  
-- C. Abundant resources are available.  
-- D. Resources are quickly obtained by making a phone call.  
+- A. No need to worry about security attacks.
+- B. Services can be provided in multiple geographies.
+- C. Abundant resources are available.
+- D. Resources are quickly obtained by making a phone call.
 <details><summary><mark><strong>Show Answer</strong></mark></summary>
 
 **Answer:** **A, D**
 
 </details>
-26) **Which statements are TRUE about RDS?**  
+26) **Which statements are TRUE about RDS?**
+*(ข้อใดบ้างกล่าวถูกต้องเกี่ยวกับ RDS? (เลือกได้หลายข้อ))*
 
-- A. Automated backups use binlogs for point-in-time recovery.  
-- B. Manual backups use binlogs.  
-- C. Manual backups support PITR but automated backups do not.  
-- D. Backups are stored in OBS.  
+- A. Automated backups use binlogs for point-in-time recovery.
+- B. Manual backups use binlogs.
+- C. Manual backups support PITR but automated backups do not.
+- D. Backups are stored in OBS.
 <details><summary><mark><strong>Show Answer</strong></mark></summary>
 
 **Answer:** **A, D**
 
 </details>
-27) **Which methods can ELB use for backend health checks?**  
+27) **Which methods can ELB use for backend health checks?**
+*(ELB สามารถใช้วิธีใดในการตรวจสอบสุขภาพ Backend? (เลือกได้หลายข้อ))*
 
-- A. Ping backend server  
-- B. TCP connection to backend port  
-- C. HTTP request to backend port  
-- D. Check backend host power supply  
+- A. Ping backend server
+- B. TCP connection to backend port
+- C. HTTP request to backend port
+- D. Check backend host power supply
 <details><summary><mark><strong>Show Answer</strong></mark></summary>
 
 **Answer:** **B, C**
 
 </details>
-28) **Which components are related to Huawei Cloud VPC?**  
+28) **Which components are related to Huawei Cloud VPC?**
+*(ส่วนประกอบใดบ้างที่เกี่ยวข้องกับ Huawei Cloud VPC? (เลือกได้หลายข้อ))*
 
-- A. Subnet  
-- B. Router  
-- C. Security group  
-- D. Switch  
+- A. Subnet
+- B. Router
+- C. Security group
+- D. Switch
 <details><summary><mark><strong>Show Answer</strong></mark></summary>
 
 **Answer:** **A, C**
 
 </details>
-29) **Which statements are FALSE about Cloud Trace Service (CTS)?**  
+29) **Which statements are FALSE about Cloud Trace Service (CTS)?**
+*(ข้อใดบ้างกล่าวผิดเกี่ยวกับ Cloud Trace Service (CTS)? (เลือกได้หลายข้อ))*
 
-- A. It records access to Huawei Cloud APIs.  
-- B. It is used for security audit and traceability.  
-- C. CTS is not free and must always be charged.  
-- D. Long-term trace storage in OBS is always free of charge.  
+- A. It records access to Huawei Cloud APIs.
+- B. It is used for security audit and traceability.
+- C. CTS is not free and must always be charged.
+- D. Long-term trace storage in OBS is always free of charge.
 <details><summary><mark><strong>Show Answer</strong></mark></summary>
 
 **Answer:** **C, D**
 
 </details>
-30) **What functions does DAS provide for database development and O&M?**  
+30) **What functions does DAS provide for database development and O&M?**
+*(DAS มีฟังก์ชันใดบ้างสำหรับการพัฒนาและดูแล Database? (เลือกได้หลายข้อ))*
 
-- A. Online SQL/database operations without local client installation  
-- B. Host/instance performance analysis  
-- C. Real-time performance diagnosis  
-- D. Rich development features (for example SQL prompt/sync tooling)  
+- A. Online SQL/database operations without local client installation
+- B. Host/instance performance analysis
+- C. Real-time performance diagnosis
+- D. Rich development features (for example SQL prompt/sync tooling)
 <details><summary><mark><strong>Show Answer</strong></mark></summary>
 
 **Answer:** **A, B, C, D**
